@@ -1,2 +1,6 @@
-<!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<swiper class="banner" indicator-dots indicator-color="#dfe6e9" indicator-active-color="#0089A7">
+    <swiper-item class="item"><image src="/static/images/recommendSong/02.jpg"></image></swiper-item>
+    <swiper-item class="item">2</swiper-item>
+    <swiper-item class="item">3</swiper-item>
+    <swiper-item class="item">4</swiper-item>
+</swiper>

@@ -2,6 +2,11 @@
   "pages": [
     "pages/index/index"
   ],
+  "window": {
+    "navigationBarBackgroundColor": "#0089A7",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "SimpleMusic"
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
