@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d794401e-5c8d-415b-bdc0-5ed67bafa9d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <updated>1603881955945</updated>
       <workItem from="1603881957098" duration="103000" />
       <workItem from="1603883559404" duration="64000" />
-      <workItem from="1603927931822" duration="7289000" />
+      <workItem from="1603927931822" duration="9162000" />
     </task>
     <task id="LOCAL-00001" summary="图标导航">
       <created>1603930542683</created>
@@ -51,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603930542683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="推荐歌曲">
+      <created>1603936652890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603936652890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -62,13 +70,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="图标导航" />
-    <option name="LAST_COMMIT_MESSAGE" value="图标导航" />
+    <MESSAGE value="推荐歌曲" />
+    <option name="LAST_COMMIT_MESSAGE" value="推荐歌曲" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="0" key="CommitChangelistDialog2" timestamp="1603930540337">
+    <state x="432" y="0" key="CommitChangelistDialog2" timestamp="1603936651612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="432" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603930540337" />
+    <state x="432" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603936651612" />
     <state x="699" y="185" key="FileChooserDialogImpl" timestamp="1603881980433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,12 +1,10 @@
 <view calss="indexContainer">
     <!--轮播图-->
     <swiper class="banner" indicator-dots indicator-color="#dfe6e9" indicator-active-color="#0089A7" autoplay circular>
-        <swiper-item class="item">
-            <image src="/static/images/recommendSong/02.jpg"></image>
+        <swiper-item class="item" wx:for="{{bannerData}}" wx:key="index"  wx:for-index="index" wx:for-item="item">
+
+
         </swiper-item>
-        <swiper-item class="item">2</swiper-item>
-        <swiper-item class="item">3</swiper-item>
-        <swiper-item class="item">4</swiper-item>
     </swiper>
     <!--图标导航-->
     <view class="navContainer">
