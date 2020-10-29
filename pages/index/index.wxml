@@ -1,6 +1,34 @@
-<swiper class="banner" indicator-dots indicator-color="#dfe6e9" indicator-active-color="#0089A7">
-    <swiper-item class="item"><image src="/static/images/recommendSong/02.jpg"></image></swiper-item>
-    <swiper-item class="item">2</swiper-item>
-    <swiper-item class="item">3</swiper-item>
-    <swiper-item class="item">4</swiper-item>
-</swiper>
+<view calss="indexContainer">
+    <!--轮播图-->
+    <swiper class="banner" indicator-dots indicator-color="#dfe6e9" indicator-active-color="#0089A7" autoplay circular>
+        <swiper-item class="item">
+            <image src="/static/images/recommendSong/02.jpg"></image>
+        </swiper-item>
+        <swiper-item class="item">2</swiper-item>
+        <swiper-item class="item">3</swiper-item>
+        <swiper-item class="item">4</swiper-item>
+    </swiper>
+    <!--图标导航-->
+    <view class="navContainer">
+        <view class="navItem">
+            <text class="iconfont icon-tuijian"></text>
+            <text>每日推荐</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-gedan"></text>
+            <text>歌单</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-paixingbang"></text>
+            <text>排行榜</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-diantai"></text>
+            <text>电台</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-zhibo"></text>
+            <text>直播</text>
+        </view>
+    </view>
+</view>
