@@ -36,21 +36,10 @@
   font-size: 32rpx;
 }
 
-/*推荐歌曲*/
-.recommendContainer .header .title{
-  color:#666;
-}
-
-.recommendContainer .header .more{
-  float: right;
-  border:1px solid #666;
-  font-size: 28rpx;
-  padding: 8rpx;
-  border-radius: 30rpx;
-}
 .scrollContainer{
   display: flex;
   margin-top: 30rpx;
+  height: 300rpx;
 }
 .scrollContainer .scrollItem{
   width: 30%;
@@ -66,5 +55,10 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  word-break: break-all;
   -webkit-box-orient: vertical;
+}
+/*排行榜*/
+.topList{
+  margin: 10rpx;
 }

@@ -30,16 +30,15 @@
     </view>
     <!--推荐歌曲-->
     <view class="recommendContainer">
-        <view class="header">
-            <view class="title">推荐歌单</view>
-            <text>为你推荐歌单</text>
-            <text class="more">查看更多</text>
-        </view>
+        <NavHeader title="推荐歌曲" nav="为你精心推荐"></NavHeader>
         <scroll-view class="scrollContainer" enable-flex scroll-x>
             <view class="scrollItem" wx:for="{{recommendList}}" wx:for-item="recommendItem" wx:key="id">
                 <image src="{{recommendItem.picUrl}}"></image>
                 <text>{{recommendItem.name}}</text>
             </view>
         </scroll-view>
+    </view>
+    <view class="topList">
+        <NavHeader title="排行榜" nav="热歌风向标"></NavHeader>
     </view>
 </view>

@@ -19,19 +19,18 @@ Page({
     onLoad: async function (options) {
         let bannerListData = await request("/banner", {type: 2});
         if (bannerListData.code !== 200) {
-            console.log("获取请求失败");
+            return console.log("获取请求失败");
         }
         this.setData({
             bannerList:bannerListData.banners,
         })
         let recommendListData=await request("/personalized",{limit:10});
         if(recommendListData.code!==200) {
-            return alert("获取请求失败");
+            return console.log("获取请求失败");
         }
         this.setData({
             recommendList:recommendListData.result,
         })
-        console.log(this.data.recommendList);
     },
 
     /**
