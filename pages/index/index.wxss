@@ -7,6 +7,7 @@
   width: 100%;
   height: 100%;
 }
+/*导航栏*/
 .navContainer{
   display: flex;
 }
@@ -29,4 +30,38 @@
 .navItem text{
   font-size: 32rpx;
   margin-top:20rpx;
+}
+.recommendContainer{
+  padding:20rpx;
+  font-size: 32rpx;
+}
+
+/*推荐歌曲*/
+.recommendContainer .header .title{
+  color:#666;
+}
+
+.recommendContainer .header .more{
+  float: right;
+  border:1px solid #666;
+  font-size: 28rpx;
+  padding: 8rpx;
+  border-radius: 30rpx;
+}
+.scrollContainer{
+  display: flex;
+  margin-top: 30rpx;
+}
+.scrollContainer .scrollItem{
+  width: 30%;
+}
+.scrollContainer .scrollItem image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.scrollContainer .scrollItem text{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
