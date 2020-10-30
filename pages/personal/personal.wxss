@@ -156,7 +156,7 @@
 
 .nav-section .nav-item .iconfont {
     font-size: 50rpx;
-    color: #d43c33;
+    color: #0089A7;
     line-height: 70rpx;
 }
 

@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d794401e-5c8d-415b-bdc0-5ed67bafa9d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/personal/personal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/personal/personal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/personal/personal.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/personal/personal.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/video/video.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/video/video.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/video/video.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tabs/main-current.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tabs/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tabs/personal-current.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tabs/personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tabs/video-current.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tabs/video.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personal/personal.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personal/personal.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personal/personal.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personal/personal.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/iconfont/iconfont.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/static/iconfont/iconfont.wxss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/tabs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,6 +39,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chenguocan\Desktop\小程序\简易音乐\static\images\tabs" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +56,7 @@
       <workItem from="1603881957098" duration="103000" />
       <workItem from="1603883559404" duration="64000" />
       <workItem from="1603927931822" duration="19663000" />
-      <workItem from="1604024106952" duration="11009000" />
+      <workItem from="1604024106952" duration="12233000" />
     </task>
     <task id="LOCAL-00001" summary="图标导航">
       <created>1603930542683</created>
@@ -117,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604040254119</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="完成tabBar和个人中心样式">
+      <created>1604044063375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604044063375</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -136,13 +147,14 @@
     <MESSAGE value="排行榜静态样式" />
     <MESSAGE value="排行榜动态获取" />
     <MESSAGE value="内网穿透" />
-    <option name="LAST_COMMIT_MESSAGE" value="内网穿透" />
+    <MESSAGE value="完成tabBar和个人中心样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成tabBar和个人中心样式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="0" key="CommitChangelistDialog2" timestamp="1604040252622">
+    <state x="432" y="0" key="CommitChangelistDialog2" timestamp="1604044058736">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="432" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604040252622" />
+    <state x="432" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604044058736" />
     <state x="699" y="185" key="FileChooserDialogImpl" timestamp="1603881980433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

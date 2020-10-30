@@ -11,26 +11,26 @@
     "navigationBarTitleText": "SimpleMusic"
   },
   "tabBar": {
-    "color": "#0089A7",
-    "selectedColor": "#fa436a",
+    "color": "#8a8a8a",
+    "selectedColor": "#0089A7",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "主页",
-        "iconPath": "/static/images/tabs/tab-cate.png",
-        "selectedIconPath": "/static/images/tabs/tab-cate-current.png"
+        "iconPath": "/static/images/tabs/main.png",
+        "selectedIconPath": "/static/images/tabs/main-current.png"
       },
       {
         "pagePath": "pages/video/video",
         "text": "视频",
-        "iconPath": "/static/images/tabs/tab-home.png",
-        "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+        "iconPath": "/static/images/tabs/video.png",
+        "selectedIconPath": "/static/images/tabs/video-current.png"
       },
       {
         "pagePath": "pages/personal/personal",
         "text": "个人",
-        "iconPath": "/static/images/tabs/tab-my.png",
-        "selectedIconPath": "/static/images/tabs/tab-my-current.png"
+        "iconPath": "/static/images/tabs/personal.png",
+        "selectedIconPath": "/static/images/tabs/personal-current.png"
       }
     ]
   },
