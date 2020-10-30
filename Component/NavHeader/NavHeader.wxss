@@ -1,0 +1,15 @@
+/*推荐歌曲*/
+ .header .title{
+    color:#666;
+     font-size: 32rpx;
+}
+.header text{
+    font-size: 32rpx;
+}
+ .header .more{
+    float: right;
+    border:1px solid #666;
+    font-size: 28rpx;
+    padding: 8rpx;
+    border-radius: 30rpx;
+}
