@@ -59,6 +59,31 @@
   -webkit-box-orient: vertical;
 }
 /*排行榜*/
+.topListSwiper{
+  height: 500rpx;
+}
 .topList{
   margin: 10rpx;
+}
+.musicItem{
+  margin-bottom: 20rpx;
+}
+.musicItem image{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 8rpx;
+}
+.musicItem .count {
+  height: 125rpx;
+  width: 125rpx;
+  text-align: center;
+  line-height: 125rpx;
+}
+.topListItem .musicItem{
+  display: flex;
+}
+.musicItem .musicName{
+  height: 125rpx;
+  width: 125rpx;
+  line-height: 125rpx;
 }
