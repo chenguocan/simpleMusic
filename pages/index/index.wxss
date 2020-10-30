@@ -79,6 +79,7 @@
   border-radius: 8rpx;
 }
 .musicItem .count {
+  font-size: 32rpx;
   height: 125rpx;
   width: 125rpx;
   text-align: center;
@@ -88,7 +89,12 @@
   display: flex;
 }
 .musicItem .musicName{
+  font-size: 32rpx;
+  white-space: nowrap;
+  text-wrap: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
   height: 125rpx;
-  width: 125rpx;
+  width: 250rpx;
   line-height: 125rpx;
 }

@@ -1,7 +1,7 @@
 import config from "./config";
 function request(url,data={},methods="GET"){
     return new Promise((resolve,reject)=>{
-        url=config.host+url;
+        url=config.mobile+url;
         wx.request({
             url,
             data,

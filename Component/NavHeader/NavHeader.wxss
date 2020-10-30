@@ -1,12 +1,12 @@
-/*推荐歌曲*/
- .header .title{
+
+.header .title{
     color:#666;
      font-size: 32rpx;
 }
-.header text{
+.header .nav,.header .more{
     font-size: 32rpx;
 }
- .header .more{
+.header .more{
     float: right;
     border:1px solid #666;
     font-size: 28rpx;
