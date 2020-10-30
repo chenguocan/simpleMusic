@@ -39,6 +39,7 @@
             </view>
         </scroll-view>
     </view>
+    <!--排行榜-->
     <view class="topList">
         <NavHeader title="排行榜" nav="热歌风向标"></NavHeader>
         <swiper class="topListSwiper" circular next-margin="30rpx">
