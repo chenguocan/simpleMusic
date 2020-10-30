@@ -41,13 +41,13 @@
     </view>
     <view class="topList">
         <NavHeader title="排行榜" nav="热歌风向标"></NavHeader>
-        <swiper class="topListSwiper">
-            <swiper-item class="topListItem">
-                <view class="title">啊啊啊啊</view>
-                <view class="musicItem">
-                    <image src="/static/images/recommendSong/02.jpg"></image>
-                    <text class="count">1</text>
-                    <text class="musicName">你好啊</text>
+        <swiper class="topListSwiper" circular next-margin="30rpx">
+            <swiper-item class="topListItem" wx:for="{{topList}}" wx:for-item="topListItem" wx:key="name">
+                <view class="title">{{topListItem.name}}</view>
+                <view class="musicItem" wx:for="{{topListItem.tracks}}" wx:key="id">
+                    <image src="{{item.al.picUrl}}"></image>
+                    <text class="count">{{index+1}}</text>
+                    <text class="musicName">{{item.name}}</text>
                 </view>
             </swiper-item>
         </swiper>

@@ -60,13 +60,18 @@
 }
 /*排行榜*/
 .topListSwiper{
-  height: 500rpx;
+  width: 96%;
+  height: 550rpx;
 }
 .topList{
   margin: 10rpx;
 }
 .musicItem{
   margin-bottom: 20rpx;
+}
+.topListItem .title{
+  font-size: 32rpx;
+  margin: 10rpx 0;
 }
 .musicItem image{
   height: 150rpx;

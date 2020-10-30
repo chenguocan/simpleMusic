@@ -7,8 +7,9 @@ Page({
      * 页面的初始数据
      */
     data: {
-        bannerList: [],
-        recommendList: [],
+        bannerList: [],//导航栏
+        recommendList: [],//推荐歌曲
+        topList:[],//排行榜
     },
     getData() {
 
@@ -31,6 +32,16 @@ Page({
         this.setData({
             recommendList:recommendListData.result,
         })
+        let index=0;
+        let resultArr=[];
+        while(index<5){
+            let tempData=await request("/top/list",{idx:index++});
+            let topListData={name:tempData.playlist.name,tracks:tempData.playlist.tracks.slice(0,3)};
+            resultArr.push(topListData);
+            this.setData({
+                topList:resultArr,
+            })
+        }
     },
 
     /**
